@@ -4,7 +4,7 @@
     </div>
 {{else if badge_view '===' 'topleft'}}
     <div class="{{badge-type}}-flag-side">
-        <span class="{{badge-type}}-text">{{{badge_label}}}</span>
+        <span class="{{badge-type}}-text">-{{round (multiply (divide (subtract price.non_sale_price_with_tax.value price.sale_price_with_tax.value) price.non_sale_price_with_tax.value ) 100)}}% </span>
     </div>
 {{else if badge_view '===' 'burst'}}
     <div class="starwrap">

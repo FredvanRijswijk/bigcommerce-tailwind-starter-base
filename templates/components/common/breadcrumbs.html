@@ -1,16 +1,22 @@
 <nav aria-label="Breadcrumb">
-    <ol class="breadcrumbs">
+    <ol class="tw-flex tw-items-center tw-space-x-4">
         {{#unless theme_settings.hide_breadcrumbs }}
-            {{#each breadcrumbs}}
-                <li class="breadcrumb {{#if @last}}is-active{{/if}}">
-                    <a class="breadcrumb-label"
-                       href="{{url}}"
-                       {{#if @last}}aria-current="page"{{/if}}
-                    >
-                        <span>{{name}}</span>
-                    </a>
-                </li>
-            {{/each}}
+        {{#each breadcrumbs}}
+        <li class="{{#if @last}}is-active{{/if}}">
+            <div class="tw-flex tw-items-center">
+                <svg class="tw-h-5 tw-w-5 tw-flex-shrink-0 tw-text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                        clip-rule="evenodd" />
+                </svg>
+                <a class="tw-ml-4 tw-text-sm tw-font-medium tw-text-gray-500 hover:tw-text-pink-700" href="{{url}}"
+                    {{#if @last}}aria-current="page" {{/if}}>
+                    <span>{{name}}</span>
+                </a>
+            </div>
+        </li>
+        {{/each}}
         {{/unless}}
     </ol>
 </nav>

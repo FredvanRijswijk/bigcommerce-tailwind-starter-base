@@ -1,5 +1,5 @@
-import _ from 'lodash';
 import PageManager from './page-manager';
+import _ from 'lodash';
 import nod from './common/nod';
 import Wishlist from './wishlist';
 import validation from './common/form-validation';
@@ -429,7 +429,7 @@ export default class Account extends PageManager {
     const formEditSelector = 'form[data-edit-account-form]';
     const editValidator = nod({
       submit: '${formEditSelector} input[type="submit"]',
-      tap: announceInputErrorMessage,
+      delay: 0,
     });
     const emailSelector = `${formEditSelector} [data-field-type="EmailAddress"]`;
     const $emailElement = $(emailSelector);
@@ -517,13 +517,15 @@ export default class Account extends PageManager {
       }
 
       event.preventDefault();
+      const earliestError = $('span.form-inlineMessage:first').prev('input');
+      earliestError.focus();
     });
   }
 
   registerInboxValidation($inboxForm) {
     const inboxValidator = nod({
       submit: 'form[data-inbox-form] input[type="submit"]',
-      tap: announceInputErrorMessage,
+      delay: 0,
     });
 
     inboxValidator.add([
@@ -564,6 +566,8 @@ export default class Account extends PageManager {
       }
 
       event.preventDefault();
+      const earliestError = $('span.form-inlineMessage:first').prev('input');
+      earliestError.focus();
     });
   }
 }
