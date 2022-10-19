@@ -39,7 +39,7 @@
     "cart": {
         "nav_aria_label": "Warenkorb mit 0 Artikeln",
         "continue_shopping": "Klicken Sie hier, um mit dem Einkauf fortzufahren",
-        "items": "{NUM, plural, =0{(0 Artikel)} one {(# Artikel)} other {(# Artikel)}}",
+        "items": "{NUM, plural, =0{(0 Artikel)} one {(# Artikel)} other {(# Artikel)}}",
         "checkout": {
             "address": {
                 "multiple": "Bezahlvorgang mit mehreren Adressen abschließen",
@@ -125,8 +125,8 @@
             "preview": "Vorschau"
         },
         "added_to_cart": {
-            "what_next": "Okay, {num_products, plural, one {1 Artikel wurde} other {# Artikel wurden}} in Ihren Warenkorb gelegt. Wie möchten Sie fortfahren?",
-            "your_cart_contains": "Ihr Warenkorb enthält {num_products, plural, one {1 Artikel} other {# Artikel}}",
+            "what_next": "Okay, {num_products, plural, one {1 Artikel wurde} other {# Artikel wurden}} in Ihren Warenkorb gelegt. Wie möchten Sie fortfahren?",
+            "your_cart_contains": "Ihr Warenkorb enthält {num_products, plural, one {1 Artikel} other {# Artikel}}",
             "proceed_to_checkout": "Weiter zur Kasse",
             "order_subtotal": "Zwischensumme der Bestellung",
             "continue_shopping": "Weiter einkaufen",
@@ -337,7 +337,7 @@
             "last_update": "Letztes Update",
             "list": {
                 "order_number": "Bestellung #{number}",
-                "product_details": "{num_products, plural, one {1 Produkt} other {# Produkte}} im Gesamtwert von {cost}"
+                "product_details": "{num_products, plural, one {1 Produkt} other {# Produkte}} im Gesamtwert von {cost}"
             },
             "details": {
                 "heading": "Bestellung #{number}",
@@ -370,8 +370,8 @@
                 "heading": "Bestellung #{number} Downloads",
                 "download_files_below": "Untenstehend können Sie die Dateien herunterladen für:",
                 "expired_content": "Datei ist abgelaufen",
-                "days_remaining": "{number, plural, one {1 Tag} other {# Tage}}",
-                "downloads_remaining": "{number, plural, one {1 Download} other {# Downloads}} verbleibend",
+                "days_remaining": "{number, plural, one {1 Tag} other {# Tage}}",
+                "downloads_remaining": "{number, plural, one {1 Download} other {# Downloads}} verbleibend",
                 "days_or_downloads": "oder {number} Downloads",
                 "remaining": "verbleiben"
             }
@@ -473,7 +473,7 @@
             "edit": "Wunschliste bearbeiten",
             "view_heading": "Wunschliste: {name}",
             "share_intro": "Diese Wunschliste mit Freunden teilen:",
-            "num_products": "{num_products, plural, one {1 Produkt} other {# Produkte}}",
+            "num_products": "{num_products, plural, one {1 Produkt} other {# Produkte}}",
             "create": "Wunschliste erstellen",
             "save": "Wunschliste speichern",
             "delete_alert": "Möchten Sie Ihre Wunschliste(n) wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
@@ -585,7 +585,7 @@
                 "amount": "Betrag",
                 "theme": "Geschenkgutschein-Design",
                 "custom_range": "(Wert muss zwischen {min} und {max} liegen)",
-                "agree": "Ich nehme zur Kenntnis, dass Geschenkgutscheine nach {days, plural, one {1  ag} other {# Tagen}} ablaufen",
+                "agree": "Ich nehme zur Kenntnis, dass Geschenkgutscheine nach {days, plural, one {1  ag} other {# Tagen}} ablaufen",
                 "agree2": "Ich erkläre mich damit einverstanden, dass Geschenkgutscheine nicht erstattungsfähig sind",
                 "preview": "Vorschau",
                 "preview_error": "Beim Laden der Vorschau ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
@@ -698,7 +698,7 @@
         "quantity_decrease": "Menge von {name} verringern",
         "quantity_increase": "Menge von {name} erhöhen",
         "quantity_error_message": "Die Anzahl sollte nur Zahlen enthalten",
-        "purchase_units": "{quantity, plural, =0{0 Einheiten} one {# Einheit} other {# Einheiten}}",
+        "purchase_units": "{quantity, plural, =0{0 Einheiten} one {# Einheit} other {# Einheiten}}",
         "max_purchase_quantity": "Höchstkaufwert:",
         "min_purchase_quantity": "Mindestkaufwert:",
         "related_products": "Verwandte Produkte",
@@ -712,8 +712,8 @@
             "hide": "Bewertungen ausblenden",
             "new": "Bewertung schreiben",
             "show": "Bewertungen anzeigen",
-            "header": "{total, plural, =0{0 Bewertungen} one {# Bewertung} other {# Bewertungen}}",
-            "link_to_review": "({total, plural, =0{Noch keine Bewertungen} one {# Bewertung} other {# Bewertungen}})",
+            "header": "{total, plural, =0{0 Bewertungen} one {# Bewertung} other {# Bewertungen}}",
+            "link_to_review": "({total, plural, =0{Noch keine Bewertungen} one {# Bewertung} other {# Bewertungen}})",
             "post_on_by": "Gepostet von { name } am { date }",
             "rating_label": "Bewertung",
             "select_rating": "Bewertung auswählen",
@@ -742,7 +742,7 @@
             "show": "Videos anzeigen"
         },
         "add_to_cart": "Zum Warenkorb hinzufügen",
-        "adding_to_cart": "Wird zum Warenkorb hinzugefügt …",
+        "adding_to_cart": "Wird zum Warenkorb hinzugefügt …",
         "options": "Optionen",
         "none": "Keine",
         "sku": "SKU:",
@@ -839,8 +839,8 @@
         "results": {
             "form_label": "Schlagwort suchen:",
             "form_button_text": "Suchen",
-            "count": "{ count, plural, one {# Ergebnis} other {# Ergebnisse} } für '{ search_query }'",
-            "quick_count": "{ count, plural, one {# Produktergebnis} other {# Produktergebnisse} } für '{ search_query }'",
+            "count": "{ count, plural, one {# Ergebnis} other {# Ergebnisse} } für '{ search_query }'",
+            "quick_count": "{ count, plural, one {# Produktergebnis} other {# Produktergebnisse} } für '{ search_query }'",
             "quick_count_live": "Produktergebnisse für",
             "product_count": "Produkte ({count})",
             "content_count": "Neuigkeiten & Informationen ({count})"
@@ -848,7 +848,7 @@
         "faceted": {
             "selected": {
                 "title": "Eingrenzen auf",
-                "rating-label": "Bewertung: {rating, plural, one {# Stern} other {# Sterne}} oder mehr",
+                "rating-label": "Bewertung: {rating, plural, one {# Stern} other {# Sterne}} oder mehr",
                 "no-filters": "Kein Filter angewendet",
                 "clear-all": "Alles löschen"
             },
@@ -879,7 +879,7 @@
         "message": "Oh je, sieht so aus, als ob die Seite, die Sie suchen, verschoben wurde oder nicht mehr existiert."
     },
     "server_error": {
-        "page_heading": "Es ist etwas schiefgegangen ...",
+        "page_heading": "Es ist etwas schiefgegangen ...",
         "message": "Der Shop ist derzeit nicht verfügbar, bitte versuchen Sie es in ein paar Minuten erneut"
     },
     "forbidden": {
@@ -900,9 +900,9 @@
         "down": "Ausfall wegen Wartungsarbeiten"
     },
     "carousel": {
-        "arrow_and_dot_aria_label": "Gehen Sie zu Folie [SLIDE_NUMBER] von [SLIDES_QUANTITY].",
+        "arrow_and_dot_aria_label": "Gehen Sie zu Folie [SLIDE_NUMBER] von [SLIDES_QUANTITY].",
         "active_dot_aria_label": "Aktiv",
-        "content_announce_message": "Sie befinden sich auf Folie [SLIDE_NUMBER] von [SLIDES_QUANTITY].",
+        "content_announce_message": "Sie befinden sich auf Folie [SLIDE_NUMBER] von [SLIDES_QUANTITY].",
         "play_pause_button_play": "Wiedergabe",
         "play_pause_button_pause": "Pause",
         "play_pause_button_aria_play": "Karussell abspielen",
@@ -978,9 +978,9 @@
         "category": "Kategorie",
         "purpose": "Verwendungszweck",
         "functional_category": "Funktional",
-        "functional_purpose": "Ermöglichen erweiterte Funktionen, wie z. B. Videos und Live-Chat. Wenn Sie diese Cookies nicht zulassen, kann es sein, dass einige oder alle dieser Funktionen nicht richtig ausgeführt werden.",
+        "functional_purpose": "Ermöglichen erweiterte Funktionen, wie z. B. Videos und Live-Chat. Wenn Sie diese Cookies nicht zulassen, kann es sein, dass einige oder alle dieser Funktionen nicht richtig ausgeführt werden.",
         "analytics_category": "Analysen",
-        "analytics_purpose": "Bereitstellung statistischer Informationen über die Nutzung der Website, z. B. Webanalysen, damit wir diese Website im Laufe der Zeit verbessern können.",
+        "analytics_purpose": "Bereitstellung statistischer Informationen über die Nutzung der Website, z. B. Webanalysen, damit wir diese Website im Laufe der Zeit verbessern können.",
         "targeting_category": "Zielgruppenorientierung",
         "advertising_category": "Werbung",
         "advertising_purpose": "Werden verwendet, um Profile zu erstellen oder Inhalte zu personalisieren und auf diese Weise Ihr Einkaufserlebnis zu verbessern.",

@@ -1,7 +1,8 @@
 {
   "header": {
     "welcome_back": "Welkom terug, {name}",
-    "skip_to_main": "Overslaan en naar hoofdinhoud gaan"
+    "skip_to_main": "Overslaan en naar hoofdinhoud gaan",
+    "sign_out": "Uitloggen"
   },
   "footer": {
     "title": "Begin footer",
@@ -39,6 +40,7 @@
   "cart": {
     "nav_aria_label": "Winkelmandje met 0 items",
     "continue_shopping": "Klik hier om verder te winkelen",
+    "login_to_checkout": "Inloggen om naar de betaling te gaan",
     "items": "{NUM, plural, =0{(0 items)} one {(# item)} other {(# items)}}",
     "checkout": {
       "address": {
@@ -153,6 +155,7 @@
     "yes": "Ja",
     "from": "Van",
     "to": "op",
+    "ok": "Oke",
     "cancel": "Annuleren",
     "close": "Sluiten",
     "or": "of",
@@ -345,6 +348,7 @@
         "ship_to": "Verzenden naar",
         "ship_to_multi": "Artikelen verzonden naar {street}, {zip}, {city}, {state}, {country}",
         "ship_to_multi_text": "Bestelling wordt verzonden naar meerdere adressen",
+        "pickup_details": "Pickup Details",
         "bill_to": "Factureren aan",
         "how_to_pay": "Zo betaalt u voor uw bestelling:",
         "order_details": "Bestelgegevens",
@@ -364,7 +368,13 @@
         "actions": "Acties",
         "reorder": "Opnieuw bestellen",
         "return": "Retourneren",
-        "print_invoice": "Factuur afdrukken"
+        "pickup": "Pickup Details",
+        "pickup_method": "Afhaalmethode",
+        "in_store_pickup": "Ophalen in de winkel",
+        "print_invoice": "Factuur afdrukken",
+        "phone": "Telefoon",
+        "email": "E-mail",
+        "opening_hours": "Openingstijden"
       },
       "downloads": {
         "heading": "Bestelling #{number} downloads",
@@ -397,6 +407,7 @@
         "jcb": "JCB",
         "maestro": "Maestro",
         "mastercard": "Mastercard",
+        "unionpay": "Union Pay",
         "visa": "Visa"
       },
       "paypal": "PayPal",
@@ -452,158 +463,35 @@
       "confirm_password": "Wachtwoord bevestigen",
       "update_details": "Details bijwerken"
     },
-    "gift_wrapping": "Cadeauverpakking:",
-    "refunded": "(Terugbetaald)",
-    "refunded_quantity": "({qty} terugbetaald)",
-    "return_item": "Retourneren",
-    "return_items": "Artikelen retourneren?",
-    "order_placed": "Bestelling geplaatst",
-    "last_update": "Meest recente update",
-    "list": {
-      "order_number": "Bestelnummer {number}",
-      "product_details": "{num_products, plural, one {1 product} other {# producten}} voor in totaal {cost}"
+    "recent_items": {
+      "heading": "Recent weergegeven",
+      "no_items": "De artikelen die u recent op onze site bekeken hebt, worden hieronder weergegeven."
     },
-    "details": {
-      "heading": "Bestelnummer {number}",
-      "order_contents": "Inhoud bestelling",
-      "ship_to": "Verzenden naar",
-      "ship_to_multi": "Artikelen verzonden naar {street}, {zip}, {city}, {state}, {country}",
-      "ship_to_multi_text": "Bestelling wordt verzonden naar meerdere adressen",
-      "bill_to": "Factureren aan",
-      "how_to_pay": "Zo betaalt u voor uw bestelling:",
-      "order_details": "Bestelgegevens",
-      "order_total": "Totaal bestelling:",
-      "order_status": "Bestelstatus:",
-      "payment_date": "Besteldatum:",
-      "payment_method": "Betaalmethode:",
-      "comments": "Opmerkingen bij bestelling",
-      "download_items": "Artikelen downloaden",
-      "card_ending": "eindigt op {card}",
-      "shipments": {
-        "date": "Datum verzending",
-        "method": "Verzendmethode",
-        "link": "Traceerlink",
-        "header": "Verzendgegevens"
-      },
-      "actions": "Acties",
-      "reorder": "Opnieuw bestellen",
-      "return": "Retourneren",
-      "print_invoice": "Factuur afdrukken"
-    },
-    "downloads": {
-      "heading": "Bestelling #{number} downloads",
-      "download_files_below": "Hieronder kunt u de bestanden downloaden voor",
-      "expired_content": "Bestand is verlopen",
-      "days_remaining": "{number, plural, one {1 dag} other {# dagen}}",
-      "downloads_remaining": "{number, plural, one {1 download} other {# downloads}} resterend",
-      "days_or_downloads": "of {number} downloads",
-      "remaining": "resterend"
+    "wishlists": {
+      "heading": "Verlanglijstjes",
+      "tag_line": "Vul onderstaand formulier in om een nieuw verlanglijstje aan te maken. Klik op de knop 'Verlanglijstje aanmaken' als u klaar bent.",
+      "new": "Nieuw verlanglijstje",
+      "you_have_none": "U heeft geen verlanglijstjes, voeg er nu een toe.",
+      "empty_wishlist": "Uw verlanglijstje is leeg. Als u artikelen aan uw verlanglijstje toevoegt, verschijnen ze hier.",
+      "num_items": "Artikelen",
+      "add_item": "Toevoegen aan verlanglijstje",
+      "remove_item": "Item verwijderen",
+      "name": "Naam verlanglijstje",
+      "shared": "Gedeeld",
+      "action": "Actie",
+      "add": "Verlanglijstje toevoegen",
+      "delete_all": "Alles verwijderen",
+      "edit": "Verlanglijstje bewerken",
+      "view_heading": "Verlanglijstje: {name}",
+      "share_intro": "Dit verlanglijstje delen met vrienden:",
+      "num_products": "{num_products, plural, one {1 product} other {# producten}}",
+      "create": "Verlanglijstje aanmaken",
+      "save": "Verlanglijstje opslaan",
+      "delete_alert": "Weet u zeker dat u uw verlanglijstje(s) wilt verwijderen? Dit kan niet ongedaan worden gemaakt.",
+      "create_new": "Nieuw verlanglijstje aanmaken",
+      "add_to_default": "Aan mijn verlanglijstje toevoegen",
+      "enter_wishlist_name_error": "U moet een naam voor het verlanglijstje invoeren."
     }
-  },
-  "payment_methods": {
-    "heading": "Betaalmethoden",
-    "payment_method": "Betaalmethode",
-    "billing_address": "Factuuradres",
-    "card_ending_in": "eindigt op {last_four}",
-    "card_expiry": "{month}/{year}",
-    "new_payment_method": "Nieuwe betaalmethode toevoegen",
-    "no_methods": "U heeft nog geen betaalmethoden toegevoegd aan uw account",
-    "name_on_card": "Naam op kaart",
-    "credit_card_number": "Creditcardnummer",
-    "expiration": "Vervaldatum",
-    "cvv": "CVV",
-    "card_types": {
-      "american_express": "American Express",
-      "credit_card": "Creditcard",
-      "dankort": "Dankort",
-      "diners_club": "Diners Club",
-      "discover": "Discover",
-      "jcb": "JCB",
-      "maestro": "Maestro",
-      "mastercard": "Mastercard",
-      "visa": "Visa"
-    },
-    "paypal": "PayPal",
-    "billing_address_labels": {
-      "address_line_1": "Adresregel 1",
-      "address_line_2": "Adresregel 2",
-      "suburb_city": "Plaats",
-      "state_province": "Staat/provincie",
-      "choose_state": "Kies een staat",
-      "country": "Land",
-      "choose_country": "Kies een land",
-      "zip_postcode": "Postcode"
-    }
-  },
-  "returns": {
-    "heading": "Retourzendingen",
-    "instructions": "Instructies voor retourneren",
-    "error_no_qty": "Selecteer een of meer artikelen om te retourneren.",
-    "none": "U heeft nog geen retourneringen bij ons geplaatst. Als u een retournering plaatst, verschijnt de status daarvan op deze pagina.",
-    "new_return": "Nieuwe retournering",
-    "from_order": "Artikelen uit bestelling #{id} retourneren",
-    "date_requested": "Retournering aangevraagd",
-    "successful_heading": "Retourverzoek ingediend",
-    "successful": "Uw retournering is ingediend. We reageren zo snel mogelijk.",
-    "return": "Terug naar bestellingen",
-    "last_update": "Meest recente update",
-    "reason": "Reden voor retournering",
-    "action": "Retourneringsactie",
-    "comments": "Uw opmerkingen",
-    "list": {
-      "return_number": "#{id} retourneren",
-      "product_details": "{num_products} retourneren"
-    },
-    "status": {
-      "pending": "In behandeling",
-      "received": "Ontvangen",
-      "authorized": "Geautoriseerd",
-      "repaired": "Hersteld",
-      "refunded": "Terugbetaald",
-      "rejected": "Afgewezen",
-      "cancelled": "Geannuleerd"
-    }
-  },
-  "settings": {
-    "heading": "Accountinstellingen",
-    "first_name": "Voornaam",
-    "last_name": "Achternaam",
-    "email": "E-mailadres",
-    "company": "Bedrijf",
-    "phone": "Telefoonnummer",
-    "old_password": "Oud wachtwoord",
-    "new_password": "Nieuw wachtwoord",
-    "confirm_password": "Wachtwoord bevestigen",
-    "update_details": "Details bijwerken"
-  },
-  "recent_items": {
-    "heading": "Recent weergegeven",
-    "no_items": "De artikelen die u recent op onze site bekeken hebt, worden hieronder weergegeven."
-  },
-  "wishlists": {
-    "heading": "Verlanglijstjes",
-    "tag_line": "Vul onderstaand formulier in om een nieuw verlanglijstje aan te maken. Klik op de knop 'Verlanglijstje aanmaken' als u klaar bent.",
-    "new": "Nieuw verlanglijstje",
-    "you_have_none": "U heeft geen verlanglijstjes, voeg er nu een toe.",
-    "empty_wishlist": "Uw verlanglijstje is leeg. Als u artikelen aan uw verlanglijstje toevoegt, verschijnen ze hier.",
-    "num_items": "Artikelen",
-    "add_item": "Toevoegen aan verlanglijstje",
-    "remove_item": "Item verwijderen",
-    "name": "Naam verlanglijstje",
-    "shared": "Gedeeld",
-    "action": "Actie",
-    "add": "Verlanglijstje toevoegen",
-    "delete_all": "Alles verwijderen",
-    "edit": "Verlanglijstje bewerken",
-    "view_heading": "Verlanglijstje: {name}",
-    "share_intro": "Dit verlanglijstje delen met vrienden:",
-    "num_products": "{num_products, plural, one {1 product} other {# producten}}",
-    "create": "Verlanglijstje aanmaken",
-    "save": "Verlanglijstje opslaan",
-    "delete_alert": "Weet u zeker dat u uw verlanglijstje(s) wilt verwijderen? Dit kan niet ongedaan worden gemaakt.",
-    "create_new": "Nieuw verlanglijstje aanmaken",
-    "add_to_default": "Aan mijn verlanglijstje toevoegen",
-    "enter_wishlist_name_error": "U moet een naam voor het verlanglijstje invoeren."
   },
   "page": {
     "label": "Snelle links",
@@ -930,6 +818,10 @@
     "qty": "Aantal",
     "code": "Code/SKU",
     "shipping_address": "Verzendadres",
+    "fulfillment": "Uitvoeringsopdracht",
+    "digital": "Digitaal",
+    "shipping": "Verzending",
+    "pickup": "Ophalen",
     "product_name": "Productnaam",
     "price": "Prijs",
     "total": "Totaal",
