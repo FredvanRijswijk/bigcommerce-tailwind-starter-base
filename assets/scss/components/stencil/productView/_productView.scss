@@ -322,42 +322,51 @@
       text-align: justify;
     }
 
-    > .form-label:nth-of-type(2) {
-      margin-left: 0;
-    }
-  }
-
-  .form-action {
-    @include breakpoint('small') {
+    .add-to-cart-buttons {
+      display: inline-grid;
       float: left;
-      padding: 0 remCalc(10);
-      width: 50%;
-    }
-
-    @include breakpoint('medium') {
-      padding: 0;
-      width: auto;
-    }
-
-    @include breakpoint('large') {
-      display: inline-block;
-      margin-top: 1rem;
-    }
-
-    .button {
+      margin-bottom: 1rem;
       width: 100%;
 
+      @include breakpoint('small') {
+        padding: 0 remCalc(10);
+        width: 50%;
+      }
+
       @include breakpoint('medium') {
-        width: auto;
+        padding-right: spacing('half');
+        width: 50%;
       }
 
       @include breakpoint('large') {
-        margin-right: spacing('half');
+        display: inline-block;
+        margin-top: 1rem;
+        padding-right: spacing('half');
+        width: 50%;
+      }
+
+      .button {
+        margin: 0;
+        width: 100%;
       }
     }
 
-    .button--primary {
-      margin-right: spacing('half');
+    .add-to-cart-wallet-buttons {
+      margin-top: spacing('half');
+
+      button {
+        color: stencilColor('color-textSecondary');
+        display: block;
+        padding: spacing('quarter') 0;
+        text-align: center;
+        text-decoration: underline;
+        vertical-align: middle;
+        width: 100%;
+
+        &:hover {
+          color: stencilColor('color-textSecondary--hover');
+        }
+      }
     }
   }
 }
