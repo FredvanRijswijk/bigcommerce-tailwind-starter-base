@@ -11,13 +11,13 @@ blog:
     recent_posts:
         limit: {{theme_settings.homepage_blog_posts_count}}
 ---
-{{#partial "hero"}}
+{{!-- {{#partial "hero"}}
     {{{region name="home_below_menu"}}}
     {{#and carousel carousel.slides.length}}
         {{> components/carousel arrows=theme_settings.homepage_show_carousel_arrows play_pause_button=theme_settings.homepage_show_carousel_play_pause_button}}
     {{/and}}
     {{{region name="home_below_carousel"}}}
-{{/partial}}
+{{/partial}} --}}
 
 {{#partial "page"}}
 
@@ -29,13 +29,60 @@ blog:
     {{#if products.featured}}
         {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
     {{/if}}
+    <div class="tw-bg-gray-50">
+  <div class="tw-mx-auto tw-max-w-7xl tw-py-24 sm:tw-px-2 sm:tw-py-32 lg:px-4">
+    <div class="tw-mx-auto tw-max-w-2xl tw-px-4 lg:tw-max-w-none">
+      <div class="tw-grid tw-grid-cols-1 tw-items-center tw-gap-y-10 tw-gap-x-16 lg:tw-grid-cols-2">
+        <div>
+          <h2 class="tw-text-4xl tw-font-bold tw-tracking-tight tw-text-gray-900">Samen helpen we de plasticsoep om zeep! Dit zijn onze waarden!</h2>
+          <p class="tw-mt-4 tw-text-gray-500">Bij No Nasties staat één ding centraal, verzorging moet goed zijn voor ons, maar ook voor onze planeet. Wij verkopen producten die microplastic vrij zijn, vrij van sterke chemicaliën, SLS, mineraal oliën en schadelijke conserveringsmiddelen.</p>
+        </div>
+        <div class="tw-aspect-w-3 tw-aspect-h-2 tw-overflow-hidden tw-rounded-lg tw-bg-gray-100">
+          <img src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg" alt="" class="tw-object-cover tw-object-center">
+        </div>
+      </div>
+      <div class="tw-mt-16 tw-grid tw-grid-cols-1 tw-gap-y-10 tw-gap-x-8 lg:tw-grid-cols-3">
+        <div class="sm:tw-flex lg:tw-block">
+          <div class="sm:tw-flex-shrink-0">
+            <img class="tw-h-16 tw-w-16" src="https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg" alt="">
+          </div>
+          <div class="tw-mt-4 sm:tw-mt-0 sm:tw-ml-6 lg:tw-mt-6 lg:ml-0">
+            <h3 class="tw-text-sm tw-font-medium tw-text-gray-900">Minimal waste</h3>
+            <p class="tw-mt-2 tw-text-sm tw-text-gray-500">Wij bij No Nasties zetten ons 100% in voor een groenere toekomst.</p>
+          </div>
+        </div>
+
+        <div class="sm:tw-flex lg:tw-block">
+          <div class="sm:tw-flex-shrink-0">
+            <img class="tw-h-16 tw-w-16" src="https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg" alt="">
+          </div>
+          <div class="tw-mt-4 sm:tw-mt-0 sm:tw-ml-6 lg:tw-mt-6 lg:tw-ml-0">
+            <h3 class="tw-text-sm tw-font-medium tw-text-gray-900">Natuurlijke cosmetica</h3>
+            <p class="tw-mt-2 tw-text-sm tw-text-gray-500">Zoveel mogelijk ingrediënten van natuurlijke oorsprong</p>
+          </div>
+        </div>
+
+        <div class="sm:tw-flex lg:tw-block">
+          <div class="sm:tw-flex-shrink-0">
+            <img class="tw-h-16 tw-w-16" src="https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg" alt="">
+          </div>
+          <div class="tw-mt-4 sm:tw-mt-0 sm:tw-ml-6 lg:tw-mt-6 lg:tw-ml-0">
+            <h3 class="tw-text-sm tw-font-medium tw-text-gray-900">Micro-plasticvrije cosmetica</h3>
+            <p class="tw-mt-2 tw-text-sm tw-text-gray-500">Wij zorgen ervoor dat de producten gescant zijn en geen micro-plastics bevatten</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     {{{region name="home_below_featured_products"}}}
 
     {{#if products.top_sellers}}
         {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
     {{/if}}
+    <div class="">
     {{{region name="home_below_top_products"}}}
-
+    </div>
     {{#if products.new}}
         {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
     {{/if}}

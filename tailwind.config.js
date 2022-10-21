@@ -9,9 +9,9 @@ module.exports = {
     placeholderOpacity: false,
     ringOpacity: false,
     textOpacity: false,
+    preflight: false,
   },
   content: ['./templates/**/*.html'],
-  presets: [],
   darkMode: 'media', // or 'class'
   theme: {
     screens: {

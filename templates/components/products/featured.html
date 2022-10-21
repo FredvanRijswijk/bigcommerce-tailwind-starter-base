@@ -1,9 +1,49 @@
-<h2 class="page-heading">{{lang 'products.featured' }}</h2>
-
-<ul class="productGrid productGrid--maxCol{{ columns }}" data-product-type="featured" {{#if settings.data_tag_enabled}} data-list-name="Featured Products" {{/if}}>
+<!-- <ul class="productGrid productGrid--maxCol{{ columns }}" data-product-type="featured" {{#if settings.data_tag_enabled}} data-list-name="Featured Products" {{/if}}>
     {{#each products}}
         <li class="product">
                 {{>components/products/card settings=../settings theme_settings=../theme_settings customer=../customer event="list" position=(add @index 1)}}
         </li>
     {{/each}}
-</ul>
+</ul> -->
+
+<div class="tw-bg-white">
+    <div class="tw-mx-auto tw-max-w-2xl tw-py-16 tw-px-4 sm:tw-py-24 sm:tw-px-6 lg:tw-max-w-7xl lg:tw-px-8">
+        <div class="md:tw-flex md:tw-items-center md:tw-justify-between">
+            <h2 class="tw-text-2xl md:tw-text-4xl tw-font-bold tw-tracking-tight tw-text-stone-900">{{lang 'products.featured' }}</h2>
+            <a href="/alle-producten/?sort=featured"
+                class="tw-hidden tw-text-sm tw-font-medium tw-text-stone-600 hover:tw-text-stone-500 md:tw-block">
+                Bekijk alle <span class="tw-lowercase">{{lang 'products.featured' }}</span>
+                <span aria-hidden="true"> &rarr;</span>
+            </a>
+        </div>
+
+        <div class="tw-mt-6 tw-grid tw-grid-cols-2 tw-gap-x-4 tw-gap-y-10 sm:tw-gap-x-6 md:tw-grid-cols-4 md:tw-gap-y-0 lg:tw-gap-x-8"
+            data-product-type="featured" {{#if settings.data_tag_enabled}} data-list-name="Featured Products" {{/if}}>
+            {{#each products}}
+            <div class="tw-group tw-relative">
+                {{>components/products/card settings=../settings theme_settings=../theme_settings customer=../customer
+                event="list" position=(add @index 1)}}
+                <!-- <div class="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
+            <img src="https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg" alt="Hand stitched, orange leather long wallet." class="h-full w-full object-cover object-center">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">
+            <a href="#">
+              <span class="absolute inset-0"></span>
+              Leather Long Wallet
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Natural</p>
+          <p class="mt-1 text-sm font-medium text-gray-900">$75</p> -->
+            </div>
+
+            {{/each}}
+        </div>
+
+        <div class="tw-mt-8 tw-text-sm md:tw-hidden">
+            <a href="/alle-producten/?sort=featured" class="tw-font-medium tw-text-stone-600 hover:tw-text-stone-500">
+                Alle <span class="tw-lowercase">{{lang 'products.featured' }}</span>
+                <span aria-hidden="true"> &rarr;</span>
+            </a>
+        </div>
+    </div>
+</div>

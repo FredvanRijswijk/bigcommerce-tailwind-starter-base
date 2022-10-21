@@ -10,6 +10,13 @@
         <link href="{{ head.favicon }}" rel="shortcut icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <style type="text/css" media="screen, print">
+            @font-face {
+                font-family: "CalSans";
+                src: url("https://cdn11.bigcommerce.com/s-2e0n0397sr/content/calsans-semibold.woff2");
+            }
+        </style>
+
         <script>
             {{!-- Change document class from no-js to js so we can detect this in css --}}
             document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
@@ -52,7 +59,7 @@
         {{!-- Get this loading ASAP --}}
         <link rel="preload" href="{{cdn 'assets/dist/theme-bundle.main.js'}}" as="script">
     </head>
-    <body>
+    <body class="tw-antialiased tw-text-gray-900">
         <svg data-src="{{cdn 'img/icon-sprite.svg'}}" class="icons-svg-sprite"></svg>
 
         {{> components/common/header }}

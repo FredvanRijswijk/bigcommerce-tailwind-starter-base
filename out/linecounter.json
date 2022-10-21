@@ -1,0 +1,4037 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/fredvanrijswijk/Projects/BigCommerce/bigcommerce-tailwind",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-10-20 00:55:18",
+            "filesum": 658,
+            "codesum": 93692,
+            "commentsum": 3782,
+            "blanksum": 5056,
+            "statistics": {
+                ".svg": {
+                    "code": 188,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".js": {
+                    "code": 9004,
+                    "comment": 864,
+                    "blank": 1657
+                },
+                "": {
+                    "code": 97,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".json": {
+                    "code": 63927,
+                    "comment": 0,
+                    "blank": 9
+                },
+                ".scss": {
+                    "code": 8695,
+                    "comment": 2470,
+                    "blank": 2391
+                },
+                ".md": {
+                    "code": 517,
+                    "comment": 407,
+                    "blank": 155
+                },
+                ".css": {
+                    "code": 1098,
+                    "comment": 13,
+                    "blank": 251
+                },
+                ".yml": {
+                    "code": 106,
+                    "comment": 2,
+                    "blank": 25
+                },
+                ".html": {
+                    "code": 10036,
+                    "comment": 25,
+                    "blank": 560
+                },
+                ".sh": {
+                    "code": 24,
+                    "comment": 1,
+                    "blank": 6
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".browserslistrc"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".eslintignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": ".eslintrc"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": ".github/ISSUE_TEMPLATE.md"
+                },
+                {
+                    "blank": 9,
+                    "code": 11,
+                    "comment": 2,
+                    "filename": ".github/PULL_REQUEST_TEMPLATE.md"
+                },
+                {
+                    "blank": 11,
+                    "code": 42,
+                    "comment": 1,
+                    "filename": ".github/workflow-examples/automatic_deployment_production.yml"
+                },
+                {
+                    "blank": 12,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": ".github/workflow-examples/poll_for_changed_configuration.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".github/workflows/pull_request_review.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".husky/.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".husky/_/.gitignore"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 1,
+                    "filename": ".husky/_/husky.sh"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": ".husky/pre-commit"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": ".stylelintrc"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/add.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "assets/icons/admin-brush.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "assets/icons/admin-close.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "assets/icons/admin-edit.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "assets/icons/admin-link.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "assets/icons/admin-tooltip.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/arrow-down.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/chevron-down.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/chevron-left.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/chevron-right.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/close.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/envelope.svg"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/facebook.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/google.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "assets/icons/instagram.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/keyboard-arrow-down.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/keyboard-arrow-up.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "assets/icons/linkedin.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/lock.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-amazonpay.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-american-express.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-discover.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-googlepay.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-klarna.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-mastercard.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-paypal.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-small.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/logo-visa.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/pinterest.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/print.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/icons/remove.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "assets/icons/rss.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/star.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "assets/icons/stumbleupon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "assets/icons/tumblr.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/icons/twitter.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "assets/icons/youtube.svg"
+                },
+                {
+                    "filename": "assets/img/bc_logo_sprite.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/BrandDefault.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/coming-soon.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/GiftCertificate.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "assets/img/hero-carousel-image-load-error.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/icon-sprite.svg"
+                },
+                {
+                    "filename": "assets/img/IcoRating1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/IcoRating2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/IcoRating3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/IcoRating4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/info.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/loading.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/payment-methods/american_express.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/payment-methods/card.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/payment-methods/diners_club.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/payment-methods/discover.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/payment-methods/mastercard.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/payment-methods/paypal.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/payment-methods/unionpay.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/img/payment-methods/visa.svg"
+                },
+                {
+                    "filename": "assets/img/ProductDefault.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/vendor/jstree/32px.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/vendor/jstree/40px.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/img/vendor/jstree/throbber.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 10,
+                    "code": 81,
+                    "comment": 12,
+                    "filename": "assets/js/app.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "assets/js/polyfills.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/carousel.spec.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/cart.spec.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/common/collapsible-group.spec.js"
+                },
+                {
+                    "blank": 37,
+                    "code": 132,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/common/collapsible.spec.js"
+                },
+                {
+                    "blank": 72,
+                    "code": 278,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/common/faceted-search.spec.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/common/form-utils.spec.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/common/nod-functions/min-max-validate.spec.js"
+                },
+                {
+                    "blank": 26,
+                    "code": 126,
+                    "comment": 1,
+                    "filename": "assets/js/test-unit/theme/common/payment-method.spec.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 100,
+                    "comment": 3,
+                    "filename": "assets/js/test-unit/theme/common/state-country.spec.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/common/url-utils.spec.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/global/menu.spec.js"
+                },
+                {
+                    "blank": 26,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "assets/js/test-unit/theme/global/mobile-menu-toggle.spec.js"
+                },
+                {
+                    "blank": 70,
+                    "code": 228,
+                    "comment": 1,
+                    "filename": "assets/js/test-unit/theme/global/modal.spec.js"
+                },
+                {
+                    "blank": 79,
+                    "code": 474,
+                    "comment": 20,
+                    "filename": "assets/js/theme/account.js"
+                },
+                {
+                    "blank": 37,
+                    "code": 201,
+                    "comment": 6,
+                    "filename": "assets/js/theme/auth.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "assets/js/theme/brand.js"
+                },
+                {
+                    "blank": 80,
+                    "code": 381,
+                    "comment": 14,
+                    "filename": "assets/js/theme/cart.js"
+                },
+                {
+                    "blank": 36,
+                    "code": 169,
+                    "comment": 14,
+                    "filename": "assets/js/theme/cart/shipping-estimator.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "assets/js/theme/catalog.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 112,
+                    "comment": 0,
+                    "filename": "assets/js/theme/category.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/aria/constants.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/aria/index.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/aria/radioOptions.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/constants.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 108,
+                    "comment": 2,
+                    "filename": "assets/js/theme/common/carousel/index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 55,
+                    "comment": 1,
+                    "filename": "assets/js/theme/common/carousel/utils/activatePlayPauseButton.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/utils/analizeSlides.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/utils/arrowAriaLabling.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/utils/dotsSetup.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 1,
+                    "filename": "assets/js/theme/common/carousel/utils/getActiveSlideIdxAndSlidesQuantity.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/utils/getActiveSlideInfo.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 48,
+                    "comment": 1,
+                    "filename": "assets/js/theme/common/carousel/utils/handleImageAspectRatio.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 40,
+                    "comment": 1,
+                    "filename": "assets/js/theme/common/carousel/utils/handleImageLoad.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/utils/index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/utils/refreshFocus.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/utils/tooltipSetup.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/carousel/utils/updateTextWithLiveData.js"
+                },
+                {
+                    "blank": 28,
+                    "code": 157,
+                    "comment": 6,
+                    "filename": "assets/js/theme/common/cart-item-details.js"
+                },
+                {
+                    "blank": 18,
+                    "code": 62,
+                    "comment": 14,
+                    "filename": "assets/js/theme/common/collapsible-group.js"
+                },
+                {
+                    "blank": 44,
+                    "code": 188,
+                    "comment": 40,
+                    "filename": "assets/js/theme/common/collapsible.js"
+                },
+                {
+                    "blank": 87,
+                    "code": 339,
+                    "comment": 53,
+                    "filename": "assets/js/theme/common/faceted-search.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/font.js"
+                },
+                {
+                    "blank": 23,
+                    "code": 140,
+                    "comment": 21,
+                    "filename": "assets/js/theme/common/form-validation.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "assets/js/theme/common/gift-certificate-validator.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 9,
+                    "filename": "assets/js/theme/common/media-query-list.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 27,
+                    "comment": 31,
+                    "filename": "assets/js/theme/common/models/forms.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/nod-functions/min-max-validate.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 2,
+                    "filename": "assets/js/theme/common/nod.js"
+                },
+                {
+                    "blank": 18,
+                    "code": 175,
+                    "comment": 56,
+                    "filename": "assets/js/theme/common/payment-method.js"
+                },
+                {
+                    "blank": 58,
+                    "code": 342,
+                    "comment": 41,
+                    "filename": "assets/js/theme/common/product-details-base.js"
+                },
+                {
+                    "blank": 42,
+                    "code": 246,
+                    "comment": 2,
+                    "filename": "assets/js/theme/common/product-details.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 39,
+                    "comment": 17,
+                    "filename": "assets/js/theme/common/select-option-plugin.js"
+                },
+                {
+                    "blank": 26,
+                    "code": 99,
+                    "comment": 32,
+                    "filename": "assets/js/theme/common/state-country.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 28,
+                    "comment": 18,
+                    "filename": "assets/js/theme/common/utils/api.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/utils/banner-utils.js"
+                },
+                {
+                    "blank": 42,
+                    "code": 218,
+                    "comment": 97,
+                    "filename": "assets/js/theme/common/utils/form-utils.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "assets/js/theme/common/utils/ie-helpers.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 3,
+                    "filename": "assets/js/theme/common/utils/pagination-utils.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 5,
+                    "filename": "assets/js/theme/common/utils/safe-string.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 31,
+                    "comment": 6,
+                    "filename": "assets/js/theme/common/utils/translations-utils.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 55,
+                    "comment": 1,
+                    "filename": "assets/js/theme/common/utils/url-utils.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "assets/js/theme/compare.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "assets/js/theme/contact-us.js"
+                },
+                {
+                    "blank": 33,
+                    "code": 195,
+                    "comment": 0,
+                    "filename": "assets/js/theme/gift-certificate.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "assets/js/theme/global.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 78,
+                    "comment": 8,
+                    "filename": "assets/js/theme/global/cart-preview.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "assets/js/theme/global/compare-products.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 14,
+                    "comment": 14,
+                    "filename": "assets/js/theme/global/cookieNotification.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "assets/js/theme/global/currency-selector.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "assets/js/theme/global/foundation.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 3,
+                    "filename": "assets/js/theme/global/jquery-migrate.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 7,
+                    "filename": "assets/js/theme/global/jquery-migrate/data.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 13,
+                    "filename": "assets/js/theme/global/jquery-migrate/event.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 7,
+                    "filename": "assets/js/theme/global/jquery-migrate/init.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 5,
+                    "filename": "assets/js/theme/global/jquery-migrate/traversing.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 58,
+                    "comment": 12,
+                    "filename": "assets/js/theme/global/menu.js"
+                },
+                {
+                    "blank": 38,
+                    "code": 132,
+                    "comment": 22,
+                    "filename": "assets/js/theme/global/mobile-menu-toggle.js"
+                },
+                {
+                    "blank": 72,
+                    "code": 235,
+                    "comment": 25,
+                    "filename": "assets/js/theme/global/modal.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 93,
+                    "comment": 6,
+                    "filename": "assets/js/theme/global/quick-search.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 64,
+                    "comment": 1,
+                    "filename": "assets/js/theme/global/quick-view.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 52,
+                    "comment": 13,
+                    "filename": "assets/js/theme/global/reveal-close.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 60,
+                    "comment": 8,
+                    "filename": "assets/js/theme/global/stencil-dropdown.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "assets/js/theme/global/svg-injector.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 70,
+                    "comment": 4,
+                    "filename": "assets/js/theme/global/text-truncate.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "assets/js/theme/page-manager.js"
+                },
+                {
+                    "blank": 18,
+                    "code": 73,
+                    "comment": 5,
+                    "filename": "assets/js/theme/product.js"
+                },
+                {
+                    "blank": 18,
+                    "code": 101,
+                    "comment": 0,
+                    "filename": "assets/js/theme/product/image-gallery.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/js/theme/product/quantity.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 106,
+                    "comment": 9,
+                    "filename": "assets/js/theme/product/reviews.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 40,
+                    "comment": 1,
+                    "filename": "assets/js/theme/product/video-gallery.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "assets/js/theme/product/wishlist.js"
+                },
+                {
+                    "blank": 63,
+                    "code": 319,
+                    "comment": 5,
+                    "filename": "assets/js/theme/search.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 57,
+                    "comment": 3,
+                    "filename": "assets/js/theme/wishlist.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 7,
+                    "filename": "assets/scss/checkout.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "assets/scss/common/_aria.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "assets/scss/common/_focus-tooltip.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "assets/scss/common/index.scss"
+                },
+                {
+                    "blank": 59,
+                    "code": 55,
+                    "comment": 66,
+                    "filename": "assets/scss/components/_components.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 32,
+                    "comment": 3,
+                    "filename": "assets/scss/components/citadel/actionBar/_actionBar.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/citadel/actionBar/_component.scss"
+                },
+                {
+                    "blank": 29,
+                    "code": 120,
+                    "comment": 21,
+                    "filename": "assets/scss/components/citadel/cards/_cards.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/citadel/cards/_component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/citadel/forms/_component.scss"
+                },
+                {
+                    "blank": 68,
+                    "code": 312,
+                    "comment": 50,
+                    "filename": "assets/scss/components/citadel/forms/_forms.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/citadel/icons/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 6,
+                    "filename": "assets/scss/components/citadel/icons/_icons.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/citadel/loading/_component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 7,
+                    "filename": "assets/scss/components/citadel/loading/_loading.scss"
+                },
+                {
+                    "blank": 25,
+                    "code": 91,
+                    "comment": 25,
+                    "filename": "assets/scss/components/citadel/nav/_nav.scss"
+                },
+                {
+                    "blank": 23,
+                    "code": 107,
+                    "comment": 15,
+                    "filename": "assets/scss/components/foundation/accordion/_accordion.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/accordion/_component.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 3,
+                    "filename": "assets/scss/components/foundation/alerts/_alerts.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/components/foundation/alerts/_component.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 28,
+                    "comment": 17,
+                    "filename": "assets/scss/components/foundation/breadcrumbs/_breadcrumbs.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/breadcrumbs/_component.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 3,
+                    "filename": "assets/scss/components/foundation/buttons/_buttons.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/buttons/_component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/dropdown/_component.scss"
+                },
+                {
+                    "blank": 29,
+                    "code": 116,
+                    "comment": 3,
+                    "filename": "assets/scss/components/foundation/dropdown/_dropdown.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/forms/_component.scss"
+                },
+                {
+                    "blank": 7,
+                    "code": 26,
+                    "comment": 9,
+                    "filename": "assets/scss/components/foundation/forms/_forms.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/global/_component.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 10,
+                    "filename": "assets/scss/components/foundation/global/_global.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/inlineList/_component.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 7,
+                    "filename": "assets/scss/components/foundation/inlineList/_inlineList.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/lazyLoad/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "assets/scss/components/foundation/lazyLoad/_lazyLoad.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/modal/_component.scss"
+                },
+                {
+                    "blank": 34,
+                    "code": 179,
+                    "comment": 10,
+                    "filename": "assets/scss/components/foundation/modal/_modal.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/pagination/_component.scss"
+                },
+                {
+                    "blank": 25,
+                    "code": 79,
+                    "comment": 22,
+                    "filename": "assets/scss/components/foundation/pagination/_pagination.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/panels/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 3,
+                    "filename": "assets/scss/components/foundation/panels/_panels.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/tables/_component.scss"
+                },
+                {
+                    "blank": 25,
+                    "code": 85,
+                    "comment": 7,
+                    "filename": "assets/scss/components/foundation/tables/_tables.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/tabs/_component.scss"
+                },
+                {
+                    "blank": 15,
+                    "code": 62,
+                    "comment": 21,
+                    "filename": "assets/scss/components/foundation/tabs/_tabs.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/foundation/type/_component.scss"
+                },
+                {
+                    "blank": 16,
+                    "code": 58,
+                    "comment": 5,
+                    "filename": "assets/scss/components/foundation/type/_type.scss"
+                },
+                {
+                    "blank": 9,
+                    "code": 32,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/_login.scss"
+                },
+                {
+                    "blank": 7,
+                    "code": 27,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/_wishlists.scss"
+                },
+                {
+                    "blank": 83,
+                    "code": 306,
+                    "comment": 25,
+                    "filename": "assets/scss/components/stencil/account/_account.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/account/_component.scss"
+                },
+                {
+                    "blank": 25,
+                    "code": 100,
+                    "comment": 25,
+                    "filename": "assets/scss/components/stencil/addressBox/_addressBox.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/addressBox/_component.scss"
+                },
+                {
+                    "blank": 26,
+                    "code": 103,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/addReturn/_addReturn.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/addReturn/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "assets/scss/components/stencil/applePay/_applePay.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/applePay/_component.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 9,
+                    "filename": "assets/scss/components/stencil/banners/_banners.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/banners/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 5,
+                    "filename": "assets/scss/components/stencil/blocker/_blocker.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/blocker/_component.scss"
+                },
+                {
+                    "blank": 131,
+                    "code": 521,
+                    "comment": 45,
+                    "filename": "assets/scss/components/stencil/cart/_cart.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/cart/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 5,
+                    "filename": "assets/scss/components/stencil/category/_category.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/category/_component.scss"
+                },
+                {
+                    "blank": 24,
+                    "code": 85,
+                    "comment": 19,
+                    "filename": "assets/scss/components/stencil/compare/_compare.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/compare/_component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/cookie/_component.scss"
+                },
+                {
+                    "blank": 7,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "assets/scss/components/stencil/cookie/_cookie.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/facetedSearch/_component.scss"
+                },
+                {
+                    "blank": 19,
+                    "code": 79,
+                    "comment": 25,
+                    "filename": "assets/scss/components/stencil/facetedSearch/_facetedSearch.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/facetLabel/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 5,
+                    "filename": "assets/scss/components/stencil/facetLabel/_facetLabel.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 6,
+                    "filename": "assets/scss/components/stencil/heroCarousel/_component.scss"
+                },
+                {
+                    "blank": 39,
+                    "code": 182,
+                    "comment": 20,
+                    "filename": "assets/scss/components/stencil/heroCarousel/_heroCarousel.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/navPages/_component.scss"
+                },
+                {
+                    "blank": 86,
+                    "code": 365,
+                    "comment": 49,
+                    "filename": "assets/scss/components/stencil/navPages/_navPages.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/navUser/_component.scss"
+                },
+                {
+                    "blank": 52,
+                    "code": 258,
+                    "comment": 54,
+                    "filename": "assets/scss/components/stencil/navUser/_navUser.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/paymentMethods/_component.scss"
+                },
+                {
+                    "blank": 44,
+                    "code": 189,
+                    "comment": 6,
+                    "filename": "assets/scss/components/stencil/paymentMethods/_paymentMethods.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/previewCart/_component.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 84,
+                    "comment": 8,
+                    "filename": "assets/scss/components/stencil/previewCart/_previewCart.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/price/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/price/_price.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 6,
+                    "filename": "assets/scss/components/stencil/productCarousel/_component.scss"
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 11,
+                    "filename": "assets/scss/components/stencil/productCarousel/_productCarousel.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/productReviews/_component.scss"
+                },
+                {
+                    "blank": 10,
+                    "code": 33,
+                    "comment": 10,
+                    "filename": "assets/scss/components/stencil/productReviews/_productReviews.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/productView/_component.scss"
+                },
+                {
+                    "blank": 86,
+                    "code": 317,
+                    "comment": 34,
+                    "filename": "assets/scss/components/stencil/productView/_productView.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/quickView/_component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/quickView/_quickView.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/rating/_component.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 12,
+                    "filename": "assets/scss/components/stencil/rating/_rating.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/ribbon/_component.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 10,
+                    "filename": "assets/scss/components/stencil/ribbon/_ribbon.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 74,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/search/_search.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/socialLinks/_component.scss"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 16,
+                    "filename": "assets/scss/components/stencil/socialLinks/_socialLinks.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/tags/_component.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 8,
+                    "filename": "assets/scss/components/stencil/tags/_tags.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/textTruncate/_component.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 7,
+                    "filename": "assets/scss/components/stencil/textTruncate/_textTruncate.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/toggleLink/_component.scss"
+                },
+                {
+                    "blank": 15,
+                    "code": 43,
+                    "comment": 5,
+                    "filename": "assets/scss/components/stencil/toggleLink/_toggleLink.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/videoGallery/_component.scss"
+                },
+                {
+                    "blank": 10,
+                    "code": 46,
+                    "comment": 3,
+                    "filename": "assets/scss/components/stencil/videoGallery/_videoGallery.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/writeReview/_component.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 27,
+                    "comment": 4,
+                    "filename": "assets/scss/components/stencil/writeReview/_writeReview.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 6,
+                    "filename": "assets/scss/components/vendor/slick/_component.scss"
+                },
+                {
+                    "blank": 43,
+                    "code": 199,
+                    "comment": 44,
+                    "filename": "assets/scss/components/vendor/slick/_slick.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 15,
+                    "filename": "assets/scss/components/vendor/slick/_tools.scss"
+                },
+                {
+                    "blank": 30,
+                    "code": 157,
+                    "comment": 0,
+                    "filename": "assets/scss/invoice.scss"
+                },
+                {
+                    "blank": 16,
+                    "code": 14,
+                    "comment": 21,
+                    "filename": "assets/scss/layouts/_layouts.scss"
+                },
+                {
+                    "blank": 14,
+                    "code": 55,
+                    "comment": 5,
+                    "filename": "assets/scss/layouts/account/_account.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 72,
+                    "comment": 5,
+                    "filename": "assets/scss/layouts/blog/_blog.scss"
+                },
+                {
+                    "blank": 9,
+                    "code": 32,
+                    "comment": 10,
+                    "filename": "assets/scss/layouts/body/_body.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "assets/scss/layouts/brands/_brand.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 21,
+                    "comment": 11,
+                    "filename": "assets/scss/layouts/brands/_brandGrid.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 3,
+                    "filename": "assets/scss/layouts/container/_container.scss"
+                },
+                {
+                    "blank": 29,
+                    "code": 128,
+                    "comment": 18,
+                    "filename": "assets/scss/layouts/footer/_footer.scss"
+                },
+                {
+                    "blank": 42,
+                    "code": 213,
+                    "comment": 31,
+                    "filename": "assets/scss/layouts/header/_header.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 83,
+                    "comment": 28,
+                    "filename": "assets/scss/layouts/products/_productGrid.scss"
+                },
+                {
+                    "blank": 46,
+                    "code": 177,
+                    "comment": 24,
+                    "filename": "assets/scss/layouts/products/_productList.scss"
+                },
+                {
+                    "blank": 33,
+                    "code": 166,
+                    "comment": 11,
+                    "filename": "assets/scss/layouts/products/_productSaleBadges.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 45,
+                    "comment": 6,
+                    "filename": "assets/scss/layouts/products/_productSwatch.scss"
+                },
+                {
+                    "blank": 15,
+                    "code": 64,
+                    "comment": 5,
+                    "filename": "assets/scss/layouts/products/_productView.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 5,
+                    "filename": "assets/scss/layouts/sidebar/_block.scss"
+                },
+                {
+                    "blank": 27,
+                    "code": 158,
+                    "comment": 0,
+                    "filename": "assets/scss/maintenance.scss"
+                },
+                {
+                    "blank": 87,
+                    "code": 279,
+                    "comment": 84,
+                    "filename": "assets/scss/optimized-checkout.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 8,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/citadel/_citadel.scss"
+                },
+                {
+                    "blank": 10,
+                    "code": 19,
+                    "comment": 14,
+                    "filename": "assets/scss/settings/citadel/actionBar/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 1,
+                    "comment": 13,
+                    "filename": "assets/scss/settings/citadel/buttonGroup/_settings.scss"
+                },
+                {
+                    "blank": 19,
+                    "code": 47,
+                    "comment": 11,
+                    "filename": "assets/scss/settings/citadel/cards/_settings.scss"
+                },
+                {
+                    "blank": 39,
+                    "code": 58,
+                    "comment": 132,
+                    "filename": "assets/scss/settings/citadel/forms/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/citadel/icons/_settings.scss"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 20,
+                    "filename": "assets/scss/settings/citadel/loading/_settings.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 34,
+                    "comment": 14,
+                    "filename": "assets/scss/settings/citadel/nav/_settings.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 15,
+                    "comment": 13,
+                    "filename": "assets/scss/settings/foundation/_foundation.scss"
+                },
+                {
+                    "blank": 13,
+                    "code": 37,
+                    "comment": 25,
+                    "filename": "assets/scss/settings/foundation/accordion/_settings.scss"
+                },
+                {
+                    "blank": 19,
+                    "code": 44,
+                    "comment": 38,
+                    "filename": "assets/scss/settings/foundation/alerts/_settings.scss"
+                },
+                {
+                    "blank": 12,
+                    "code": 23,
+                    "comment": 27,
+                    "filename": "assets/scss/settings/foundation/breadcrumbs/_settings.scss"
+                },
+                {
+                    "blank": 35,
+                    "code": 166,
+                    "comment": 40,
+                    "filename": "assets/scss/settings/foundation/buttons/_settings.scss"
+                },
+                {
+                    "blank": 18,
+                    "code": 28,
+                    "comment": 35,
+                    "filename": "assets/scss/settings/foundation/dropdown/_settings.scss"
+                },
+                {
+                    "blank": 22,
+                    "code": 80,
+                    "comment": 29,
+                    "filename": "assets/scss/settings/foundation/forms/_settings.scss"
+                },
+                {
+                    "blank": 16,
+                    "code": 41,
+                    "comment": 38,
+                    "filename": "assets/scss/settings/foundation/global/_settings.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 7,
+                    "comment": 12,
+                    "filename": "assets/scss/settings/foundation/grid/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 1,
+                    "comment": 13,
+                    "filename": "assets/scss/settings/foundation/inlineList/_settings.scss"
+                },
+                {
+                    "blank": 37,
+                    "code": 82,
+                    "comment": 47,
+                    "filename": "assets/scss/settings/foundation/modal/_settings.scss"
+                },
+                {
+                    "blank": 17,
+                    "code": 33,
+                    "comment": 21,
+                    "filename": "assets/scss/settings/foundation/pagination/_settings.scss"
+                },
+                {
+                    "blank": 13,
+                    "code": 31,
+                    "comment": 30,
+                    "filename": "assets/scss/settings/foundation/panels/_settings.scss"
+                },
+                {
+                    "blank": 16,
+                    "code": 36,
+                    "comment": 30,
+                    "filename": "assets/scss/settings/foundation/tables/_settings.scss"
+                },
+                {
+                    "blank": 18,
+                    "code": 41,
+                    "comment": 20,
+                    "filename": "assets/scss/settings/foundation/tabs/_settings.scss"
+                },
+                {
+                    "blank": 31,
+                    "code": 108,
+                    "comment": 46,
+                    "filename": "assets/scss/settings/foundation/type/_settings.scss"
+                },
+                {
+                    "blank": 10,
+                    "code": 17,
+                    "comment": 19,
+                    "filename": "assets/scss/settings/global/_global.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "assets/scss/settings/global/_tools.scss"
+                },
+                {
+                    "blank": 17,
+                    "code": 40,
+                    "comment": 13,
+                    "filename": "assets/scss/settings/global/color/_color.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/global/color/_tools.scss"
+                },
+                {
+                    "blank": 14,
+                    "code": 12,
+                    "comment": 18,
+                    "filename": "assets/scss/settings/global/container/_container.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 1,
+                    "comment": 5,
+                    "filename": "assets/scss/settings/global/export/_export.scss"
+                },
+                {
+                    "blank": 10,
+                    "code": 33,
+                    "comment": 21,
+                    "filename": "assets/scss/settings/global/layout/_layout.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 1,
+                    "comment": 10,
+                    "filename": "assets/scss/settings/global/overlay/_overlay.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 11,
+                    "filename": "assets/scss/settings/global/screensizes/_screensizes.scss"
+                },
+                {
+                    "blank": 12,
+                    "code": 42,
+                    "comment": 29,
+                    "filename": "assets/scss/settings/global/typography/_typography.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 12,
+                    "filename": "assets/scss/settings/global/z-index/_z-index.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/layouts/_layouts.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/layouts/container/_settings.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/layouts/footer/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/layouts/header/_settings.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/layouts/products/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 1,
+                    "comment": 10,
+                    "filename": "assets/scss/settings/normalize/_normalize.scss"
+                },
+                {
+                    "blank": 12,
+                    "code": 12,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/_stencil.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/facetedSearch/_settings.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/facetLabel/_settings.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 2,
+                    "filename": "assets/scss/settings/stencil/heroCarousel/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/maintenanceNotice/_settings.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/navPages/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/navUser/_settings.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/productCarousel/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/productView/_settings.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/ribbon/_settings.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/socialLinks/_settings.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/tags/_settings.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/stencil/videoGallery/_settings.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "assets/scss/settings/vendor/_vendor.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 13,
+                    "filename": "assets/scss/settings/vendor/apple/_settings.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 31,
+                    "comment": 12,
+                    "filename": "assets/scss/settings/vendor/slick/_settings.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "assets/scss/tailwind-src.css"
+                },
+                {
+                    "blank": 169,
+                    "code": 647,
+                    "comment": 157,
+                    "filename": "assets/scss/tailwind.scss"
+                },
+                {
+                    "blank": 17,
+                    "code": 23,
+                    "comment": 64,
+                    "filename": "assets/scss/theme.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 14,
+                    "comment": 21,
+                    "filename": "assets/scss/tools/_image.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "assets/scss/tools/_list.scss"
+                },
+                {
+                    "blank": 15,
+                    "code": 81,
+                    "comment": 26,
+                    "filename": "assets/scss/tools/_string.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 3,
+                    "filename": "assets/scss/tools/_theme_focus.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "assets/scss/tools/_tools.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "assets/scss/utilities/_utilities.scss"
+                },
+                {
+                    "blank": 251,
+                    "code": 1095,
+                    "comment": 13,
+                    "filename": "assets/scss/vendor/jstree/style.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 5,
+                    "filename": "babel.config.js"
+                },
+                {
+                    "blank": 115,
+                    "code": 460,
+                    "comment": 397,
+                    "filename": "CHANGELOG.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 810,
+                    "comment": 0,
+                    "filename": "config.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "config.stencil.json"
+                },
+                {
+                    "blank": 20,
+                    "code": 30,
+                    "comment": 5,
+                    "filename": "CONTRIBUTING.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "grunt/aliases.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "grunt/eslint.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "grunt/run.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "grunt/stylelint.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "grunt/svgstore.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Gruntfile.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "jest-eventemitter2-transformer.js"
+                },
+                {
+                    "blank": 54,
+                    "code": 33,
+                    "comment": 124,
+                    "filename": "jest.config.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 5,
+                    "filename": "jest.setup.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1005,
+                    "comment": 0,
+                    "filename": "lang/da.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1005,
+                    "comment": 0,
+                    "filename": "lang/de.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "lang/en-CA.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1020,
+                    "comment": 0,
+                    "filename": "lang/en.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1005,
+                    "comment": 0,
+                    "filename": "lang/es.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1005,
+                    "comment": 0,
+                    "filename": "lang/fr.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1005,
+                    "comment": 0,
+                    "filename": "lang/it.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1020,
+                    "comment": 0,
+                    "filename": "lang/nl.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1005,
+                    "comment": 0,
+                    "filename": "lang/no.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1005,
+                    "comment": 0,
+                    "filename": "lang/pt.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1005,
+                    "comment": 0,
+                    "filename": "lang/sv.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "LICENSE.md"
+                },
+                {
+                    "blank": 1,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "lighthouse-config.js"
+                },
+                {
+                    "filename": "meta/composed.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "meta/desktop_bold.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "meta/desktop_light.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "meta/desktop_warm.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "meta/mobile_bold.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "meta/mobile_light.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "meta/mobile_warm.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 43893,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "postcss.config.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 7,
+                    "comment": 3,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 3457,
+                    "comment": 0,
+                    "filename": "schema.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 5576,
+                    "comment": 0,
+                    "filename": "schemaTranslations.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "secrets.stencil.json"
+                },
+                {
+                    "blank": 16,
+                    "code": 55,
+                    "comment": 14,
+                    "filename": "stencil.conf.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 989,
+                    "comment": 5,
+                    "filename": "tailwind.config.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "templates/components/account/add-wishlist.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "templates/components/account/address-list.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "templates/components/account/edit-account.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "templates/components/account/messages-form.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "templates/components/account/messages-list.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "templates/components/account/navigation.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 94,
+                    "comment": 0,
+                    "filename": "templates/components/account/order-contents.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "templates/components/account/orders-list.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 103,
+                    "comment": 0,
+                    "filename": "templates/components/account/payment-methods-list.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "templates/components/account/returns-list.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "templates/components/account/wishlist-item-list.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "templates/components/account/wishlist-list.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "templates/components/amp/category/product-listing.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "templates/components/amp/category/styles.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "templates/components/amp/category/subcategories.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/alert-error.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/alert-success.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/footer.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/header.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/icon-defs.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 101,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/navigation-menu.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/paginator.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/share.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "templates/components/amp/common/store-logo.html"
+                },
+                {
+                    "blank": 11,
+                    "code": 263,
+                    "comment": 0,
+                    "filename": "templates/components/amp/css/base.html"
+                },
+                {
+                    "blank": 33,
+                    "code": 167,
+                    "comment": 0,
+                    "filename": "templates/components/amp/css/category.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "templates/components/amp/css/footer.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 680,
+                    "comment": 0,
+                    "filename": "templates/components/amp/css/form.html"
+                },
+                {
+                    "blank": 14,
+                    "code": 150,
+                    "comment": 0,
+                    "filename": "templates/components/amp/css/header.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/amp/css/product-options.html"
+                },
+                {
+                    "blank": 16,
+                    "code": 198,
+                    "comment": 0,
+                    "filename": "templates/components/amp/css/product.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/card.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/grid.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/list-item.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/list.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/date.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/input-checkbox.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/input-file.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/input-numbers.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/input-text.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/product-list.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/set-radio.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/set-rectangle.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/set-select.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/options/swatch.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/product-options.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 108,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/product-view-details.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/product-view.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/ratings.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/reviews.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/styles.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "templates/components/amp/products/videos.html"
+                },
+                {
+                    "blank": 6,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "templates/components/blog/post.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "templates/components/brand/product-listing.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/brand/show-more.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "templates/components/brand/sidebar.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "templates/components/carousel-content-announcement.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "templates/components/carousel-content.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "templates/components/carousel-play-pause-button.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "templates/components/carousel.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "templates/components/cart/additional-checkout-buttons.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 155,
+                    "comment": 0,
+                    "filename": "templates/components/cart/content.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "templates/components/cart/coupon-input.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "templates/components/cart/gift-certificate-input.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "templates/components/cart/item-giftwrap.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "templates/components/cart/item-options.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "templates/components/cart/modals/configure-product.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "templates/components/cart/modals/gift-wrapping-form.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/cart/page-title.html"
+                },
+                {
+                    "blank": 15,
+                    "code": 104,
+                    "comment": 0,
+                    "filename": "templates/components/cart/preview.html"
+                },
+                {
+                    "blank": 7,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "templates/components/cart/shipping-estimator.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "templates/components/cart/shipping-quotes.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/cart/status-messages.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 121,
+                    "comment": 0,
+                    "filename": "templates/components/cart/totals.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "templates/components/category/product-listing.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "templates/components/category/shop-by-price.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/category/show-more.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/category/sidebar.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "templates/components/category/sort-box.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/common/alert/alert-error.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/common/alert/alert-generic.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/common/alert/alert-info.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "templates/components/common/alert/alert-modal.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/common/alert/alert-success.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/common/body.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "templates/components/common/breadcrumbs.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "templates/components/common/cart-preview.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "templates/components/common/currency-selector.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 100,
+                    "comment": 0,
+                    "filename": "templates/components/common/footer.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/checkbox.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/date-options.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/date.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/multiline.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/number.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/password.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/radio.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/select.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/selectortext.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/common/forms/text.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "templates/components/common/header.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "templates/components/common/login-for-pricing.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/common/modal/modal-close-btn.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "templates/components/common/modal/modal.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/common/navigation-dropdown.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "templates/components/common/navigation-list-alternate.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 71,
+                    "comment": 0,
+                    "filename": "templates/components/common/navigation-list.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 218,
+                    "comment": 0,
+                    "filename": "templates/components/common/navigation-menu.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 108,
+                    "comment": 0,
+                    "filename": "templates/components/common/navigation.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "templates/components/common/paginator.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "templates/components/common/payment-icons.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "templates/components/common/polyfill-script.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/common/product-options.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "templates/components/common/quick-search.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/common/requireness-msg.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "templates/components/common/responsive-img.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "templates/components/common/search-box.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 99,
+                    "comment": 0,
+                    "filename": "templates/components/common/share.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "templates/components/common/small-paginator.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/components/common/social-links.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "templates/components/common/store-logo.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "templates/components/common/subscription-form.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/common/wallet-buttons.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "templates/components/common/wishlist-dropdown.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/faceted-search-navigation.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/facets/hierarchy-children.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/facets/hierarchy.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/facets/multi.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/facets/range.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/facets/rating.html"
+                },
+                {
+                    "blank": 7,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/index.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/selected-facets.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "templates/components/faceted-search/show-more-facets.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "templates/components/gift-certificate/navigation.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "templates/components/page/contact-us-form.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "templates/components/page/rss_feed.html"
+                },
+                {
+                    "blank": 6,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "templates/components/products/add-to-cart.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "templates/components/products/bulk-discount-rates.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 124,
+                    "comment": 0,
+                    "filename": "templates/components/products/card.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "templates/components/products/carousel.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "templates/components/products/custom-fields.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "templates/components/products/description-tabs.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "templates/components/products/description.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 18,
+                    "filename": "templates/components/products/featured.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/products/filter.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/products/grid.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 114,
+                    "comment": 0,
+                    "filename": "templates/components/products/list-item.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/products/list.html"
+                },
+                {
+                    "blank": 6,
+                    "code": 65,
+                    "comment": 6,
+                    "filename": "templates/components/products/modals/writeReview.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "templates/components/products/new.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/date.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/input-checkbox.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/input-file.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/input-numbers.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/input-text.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/product-list.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/set-radio.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/set-rectangle.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/set-select.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/swatch.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/products/options/textarea.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "templates/components/products/price-label.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 114,
+                    "comment": 0,
+                    "filename": "templates/components/products/price-range.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 95,
+                    "comment": 0,
+                    "filename": "templates/components/products/price.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "templates/components/products/product-aria-label.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "templates/components/products/product-badge.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "templates/components/products/product-info.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 253,
+                    "comment": 1,
+                    "filename": "templates/components/products/product-view.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "templates/components/products/quick-view.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "templates/components/products/ratings.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "templates/components/products/related.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "templates/components/products/reviews.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "templates/components/products/schema.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "templates/components/products/tabs.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "templates/components/products/top.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "templates/components/products/videos.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "templates/components/search/advanced-search.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/search/content-count.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "templates/components/search/content-listing.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "templates/components/search/content-sort-box.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "templates/components/search/heading.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/search/product-count.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "templates/components/search/product-listing.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "templates/components/search/quick-results.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "templates/components/search/show-more.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "templates/components/search/sidebar.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "templates/components/sitemap/links.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "templates/components/social/connect.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "templates/components/social/instagram.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "templates/components/social/twitter.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "templates/layout/amp-iframe.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "templates/layout/amp.html"
+                },
+                {
+                    "blank": 13,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "templates/layout/base.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "templates/layout/empty.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "templates/pages/account/add-address.html"
+                },
+                {
+                    "blank": 14,
+                    "code": 98,
+                    "comment": 0,
+                    "filename": "templates/pages/account/add-payment-method.html"
+                },
+                {
+                    "blank": 6,
+                    "code": 100,
+                    "comment": 0,
+                    "filename": "templates/pages/account/add-return.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "templates/pages/account/add-wishlist.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "templates/pages/account/addresses.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "templates/pages/account/download-item.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "templates/pages/account/edit-payment-method.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "templates/pages/account/edit.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "templates/pages/account/inbox.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "templates/pages/account/orders/all.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "templates/pages/account/orders/completed.html"
+                },
+                {
+                    "blank": 16,
+                    "code": 169,
+                    "comment": 0,
+                    "filename": "templates/pages/account/orders/details.html"
+                },
+                {
+                    "blank": 6,
+                    "code": 204,
+                    "comment": 0,
+                    "filename": "templates/pages/account/orders/invoice.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "templates/pages/account/payment-methods.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "templates/pages/account/recent-items.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "templates/pages/account/return-saved.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "templates/pages/account/returns.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "templates/pages/account/wishlist-details.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "templates/pages/account/wishlists.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "templates/pages/amp/category.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "templates/pages/amp/product-options.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 75,
+                    "comment": 0,
+                    "filename": "templates/pages/amp/product.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "templates/pages/auth/account-created.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "templates/pages/auth/create-account.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "templates/pages/auth/forgot-password.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "templates/pages/auth/login.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "templates/pages/auth/new-password.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "templates/pages/blog-post.html"
+                },
+                {
+                    "blank": 6,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "templates/pages/blog.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "templates/pages/brand.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "templates/pages/brands.html"
+                },
+                {
+                    "blank": 12,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "templates/pages/cart.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "templates/pages/category.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "templates/pages/checkout.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 140,
+                    "comment": 0,
+                    "filename": "templates/pages/compare.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "templates/pages/contact-us.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "templates/pages/errors/403.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "templates/pages/errors/404.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "templates/pages/errors/generic.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "templates/pages/gift-certificate/balance.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 120,
+                    "comment": 0,
+                    "filename": "templates/pages/gift-certificate/purchase.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "templates/pages/gift-certificate/redeem.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "templates/pages/home.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "templates/pages/order-confirmation.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "templates/pages/page.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "templates/pages/product.html"
+                },
+                {
+                    "blank": 14,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "templates/pages/search.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "templates/pages/sitemap.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "templates/pages/subscribed.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "templates/pages/unavailable/hibernation.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "templates/pages/unavailable/maintenance.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "templates/pages/unsubscribe.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 97,
+                    "comment": 7,
+                    "filename": "webpack.common.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webpack.dev.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "webpack.prod.js"
+                }
+            ]
+        }
+    ]
+}
