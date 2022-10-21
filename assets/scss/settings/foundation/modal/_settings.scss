@@ -115,7 +115,6 @@ $alert-font-bodySize: remCalc(stencilNumber('fontSize-root', 'px') + 2px);
 $alert-font-bodyColor: stencilColor('color-textBase');
 $alert-font-headings: stencilFontFamily('headings-font'), Arial, Helvetica,
   sans-serif;
-$alert-font-headingsSize: remCalc(stencilNumber('fontSize-h1', 'px') + 2px);
 $alert-font-headingsColor: stencilColor('color-textHeading');
 
 // Modal stylings

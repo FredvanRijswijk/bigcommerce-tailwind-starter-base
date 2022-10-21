@@ -10,15 +10,11 @@ body {
   font-weight: $body-font-weight;
 }
 
-h1,
-h4,
-h5,
 h6 {
   font-weight: $header-font-weight;
   margin-top: $heading-marginTop;
 }
 
-h5,
 h6 {
   text-transform: $heading-textTransform;
 }
@@ -35,14 +31,6 @@ cite {
 .page-heading {
   margin: 0 0 spacing('double');
   text-align: center;
-}
-
-h1 {
-  font-size: $h1-font-size;
-}
-
-h4 {
-  font-size: $h4-font-size;
 }
 
 h5 {

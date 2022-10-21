@@ -67,8 +67,8 @@
       "checkout_multiple": "of afrekenen met meerdere adressen",
       "view_cart": "Winkelmandje bekijken"
     },
-    "label": "Uw winkelmandje ({quantity, plural, one {# item} other {# items}})",
-    "is_empty": "Uw winkelmandje is leeg",
+    "label": "Je winkelmandje ({quantity, plural, one {# item} other {# items}})",
+    "is_empty": "Je winkelwagentje is leeg",
     "invalid_entry_message": "[ENTRY] is geen geldige invoer",
     "coupon_code": "Couponcode",
     "discount": "Korting",
@@ -831,12 +831,12 @@
     "subscribe": "Inschrijven voor onze nieuwsbrief",
     "subscribe_intro": "Ontvang de laatste updates over nieuwe producten en komende uitverkoopperiodes",
     "subscribe_submit": "Aanmelden",
-    "email_placeholder": "Uw e-mailadres",
+    "email_placeholder": "Jouw e-mailadres",
     "subscribed_heading": "Bedankt voor het abonneren!",
     "subscribed_heading_error": "Oeps...",
-    "subscribed_message": "Bedankt voor uw aanmelding voor onze mailinglijst. U ontvangt binnenkort de volgende uitgave van onze nieuwsbrief.",
+    "subscribed_message": "Bedankt voor je aanmelding voor onze mailinglijst. Je ontvangt binnenkort de volgende uitgave van onze nieuwsbrief.",
     "unsubscribed_heading": "Afgemeld!",
-    "unsubscribed_message": "U ontvangt geen marketinge-mails meer van <b>{store_name}</b>"
+    "unsubscribed_message": "Je ontvangt geen marketinge-mails meer van <b>{store_name}</b>"
   },
   "social": {
     "connect": "Neem contact met ons op"

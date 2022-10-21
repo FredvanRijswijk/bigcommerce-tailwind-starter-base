@@ -34,9 +34,6 @@ $fontFamily-hero: stencilFontFamily('headings-font'), Arial, Helvetica,
 $fontSize-root: stencilNumber('fontSize-root'); // 1
 $fontSize-base: 1rem; // 2
 $fontSize-hero: 50px;
-$fontSize-largest: stencilNumber('fontSize-h1');
-$fontSize-small: stencilNumber('fontSize-h4');
-$fontSize-smaller: stencilNumber('fontSize-h5');
 $fontSize-smallest: stencilNumber('fontSize-h6');
 $fontSize-tiny: 12px;
 $fontSize-logo-large: stencilNumber('logo_fontSize');

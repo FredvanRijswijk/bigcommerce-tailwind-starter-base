@@ -47,14 +47,16 @@
                 <button
                         id="form-action-addToCart"
                         data-wait-message="{{lang 'products.adding_to_cart'}}"
-                        class="tw-inline-flex tw-items-center tw-rounded-md tw-border tw-border-transparent tw-bg-orange-600 tw-px-6 tw-py-3 tw-text-base tw-font-medium tw-text-white tw-shadow-sm hover:tw-bg-orange-700 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-orange-500 focus:tw-ring-offset-2"
+                        class="tw-inline-flex tw-items-center tw-rounded-md tw-border tw-border-transparent tw-bg-indigo-600 tw-px-6 tw-py-3 tw-text-base tw-font-medium tw-text-white tw-shadow-sm hover:tw-bg-indigo-700 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-indigo-500 focus:tw-ring-offset-2"
                         type="submit"
                         value=""
-                > {{#if product.pre_order}}{{lang 'products.pre_order'}}{{else}}{{lang 'products.add_to_cart'}}{{/if}}
+                > 
                 <svg class="tw--ml-1 tw-mr-3 tw-h-5 tw-w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
                     <path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
                   </svg>
+                {{#if product.pre_order}}{{lang 'products.pre_order'}}{{else}}{{lang 'products.add_to_cart'}}{{/if}}
+                
                  
                   </button>
                 <span class="product-status-message aria-description--hidden">{{lang 'products.adding_to_cart'}} {{lang 'category.add_cart_announcement'}}</span>
